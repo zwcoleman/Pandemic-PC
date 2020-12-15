@@ -9,7 +9,7 @@
 
 
 .margin {
-    margin: 75% 0;
+    margin: 45% 0;
 }
 .parallax{
     background: url("./background.jpg") repeat fixed 100%;
@@ -34,15 +34,11 @@ h1, h2 {
 }
 
 
-#content {
-    display: flex;
-    height: 30%;
-}
 .text {
     display: block;
-    margin-left: 10px;
+    margin-left: 50px;
     width: 50%;
-    height: 30%;
+    height: 50%;
     color: rgb(236, 130, 156) ;
     border-style: outset;
     border-color: /*rgb(245, 128, 99)*/ #0892d0;
@@ -53,35 +49,47 @@ h1, h2 {
     background-color: black;
     position: relative;
     font-size: 200%;
-    top: -150px;
+    
 }
 
 .vid{
     position: relative;
-    margin: 200px;
-    width: 40%;
-    height: 30%;
-    left: 300px;
+    margin: 250px;
+    margin-bottom: 700px;
+    width: 80%;
+    
+    left: 250px;
 }
 
-.paragraph_3 {
+.paragraph__1 {
     
-    margin-right:50px; 
+    top: -75px;
+
+}
+
+
+.paragraph__2 {
+    margin-top: 350px;
+    right: -600px;
+    top: 600px;
+    width: 1000px;
+}
+
+
+.paragraph__3 {
+    top: -1000px;
+     
    
 }
 
-.section__3 {
 
-    height: 2000px;
-}  
-     
 .wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     display: flex;
-    align-items: center baseline;
+    align-items: center ;
     justify-content: center;
-    top: -400px;
+    margin-top: 400px;
   }
     
   .slider {
@@ -100,7 +108,7 @@ h1, h2 {
     animation: slideshow 25s linear infinite;
   }
   .slide img {
-    top: -100px;
+    
     height: 720px;
     width: 580px;
     padding-left: 50px;
@@ -133,13 +141,11 @@ h1, h2 {
 .twitter-btn {
     font: normal normal normal 13px/26px 'Helvetica Neue',Arial,sans-serif;
       height: 28px;
-      
       border-radius: 4px;
       max-width: 100%;
       box-sizing: border-box;
       position: relative;
       background-color: #F8F8F8;
-   
       background-image: -webkit-gradient(linear,left top,left bottom,from(#FFF),to(#DEDEDE));
       background-image: -moz-linear-gradient(top,#FFF,#DEDEDE);
       background-image: -o-linear-gradient(top,#FFF,#DEDEDE);
@@ -156,10 +162,10 @@ h1, h2 {
       cursor: pointer;
       overflow: hidden;
       display: inline-block;
-      vertical-align: top;
       zoom: 1;
       text-decoration: none;
-      top: -1000px;
+      left: 150px;
+      
     
   }
    
