@@ -70,8 +70,8 @@ h1, h2 {
 
 .paragraph__2 {
     margin-top: 350px;
-    margin-right: 100px;
-    right: -600px;
+    
+    right: -400px;
     top: 600px;
     width: 900px;
 }
@@ -79,7 +79,7 @@ h1, h2 {
 
 .paragraph__3 {
     top: -1000px;
-     
+    width: 700px;    
    
 }
 
