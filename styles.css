@@ -57,12 +57,11 @@ h1, h2 {
 }
 
 .vid{
-    
     position: relative;
     margin: 200px;
     width: 40%;
     height: 30%;
-    left: 300px;
+    left: 200px;
 }
 
 .paragraph_3 {
